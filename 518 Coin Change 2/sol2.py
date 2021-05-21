@@ -1,7 +1,8 @@
 """
 Simpler way:
 For every coin in the coins list, try to build a change of all the amounts from 0 to the amount itself using that particular coin.
-Store the results into an array
+Store the results into an array.
+O(amount * coins) time, O(amount) space
 """
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
